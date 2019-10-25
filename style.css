@@ -1,0 +1,187 @@
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, SansSerif;
+}
+#main{
+    background-color: royalblue;
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    background-color: honeydew;
+    height: 100px;
+    position: relative;
+    display: flex;
+}
+#logo{
+    height: 80px;
+    width: 15%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+#logo img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+}
+#banner{
+    height: 80px;
+    width: 85%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: right;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#banner img {
+    position: relative;
+    width: 80px;
+    height: auto;
+    margin: 0;
+    float: right;
+}
+#head-link {
+    background-color: lavender;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+#head-link a {
+    font-family: "Trebuchet MS", Arial, Helvetica, SansSerif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    float: left;
+    display: block;
+    padding: 10px 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #f25447;
+}
+
+#head-link #search {
+    width: 260px;
+    height: 40px;
+    position: relative;
+    float: right;
+}
+
+#head-link #search input[type=text] {
+    position: absolute;
+    left: 0px;
+    top: 25%;
+    border-radius: 10px;
+}
+
+#head-link #search input[type=submit] {
+    position: absolute;
+    left: 185px;
+    top: 25%;
+}
+
+#left {
+    background-color: #F7F0E4;
+    height: 500px;
+    width: 200px;
+    float: left;
+}
+
+#left ul {
+    font-size: 16px;
+}
+
+#left li {
+    background-color: white;
+    border: 1px solid wheat;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    width: 150px;
+    margin-left: 25px;
+}
+
+.list {
+    padding: 0;
+}
+
+#left li:hover {
+    background-color: royalblue;
+}
+
+#content {
+    background-color: silver;
+    height: 500px;
+    width: 1100px;
+    float: left;
+}
+
+.list-image img {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
+
+.list-image a {
+    display: block;
+    width: 150px;
+    height: 200px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+}
+.list-image p {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+}
+.list-image p:hover {
+    color: red
+}
+
+#right {
+    background-color: green;
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+
+#footer {
+    background-color: tan;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+#footer a {
+    font-family: Suruma;
+    font-size: 18px;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-top: 15px;
+    text-align: center;
+    color: bisque;
+    float: right;
+}
+#copyright {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+
